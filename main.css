@@ -31,10 +31,13 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-size: cover;
   color: #ffffff;
-  height: 200px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .jumbotron h2 {
@@ -51,9 +54,12 @@ header p {
 
 section .row img {
   margin: 0 0 30px;
-  width: 100%;
+  width: 50%;
 }
 
+.col-sm-4{
+	max-height:200px;
+}
 .col-md-6 {
   margin: 0 0 30px;
 }
